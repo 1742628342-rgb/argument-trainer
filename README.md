@@ -19,6 +19,7 @@
 - SQLite 自动建库、兼容迁移和历史记录
 - 完整训练记录的 UTF-8 Markdown 导出
 - API 配置状态与连通性测试，页面不显示完整 Key
+- 本地读取 `.env`，Streamlit Community Cloud 读取应用 Secrets
 
 ## 安装步骤
 

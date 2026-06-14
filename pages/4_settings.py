@@ -18,7 +18,10 @@ PROVIDER_LABELS = {
 }
 
 st.title("API 设置")
-st.caption("密钥只从本地 .env 读取，本页面不会显示完整 API Key。")
+st.caption(
+    "密钥从本地 .env 或 Streamlit Secrets 读取，"
+    "本页面不会显示完整 API Key。"
+)
 st.info("API 完全可选。未配置、额度不足或调用失败时，训练会继续使用规则模式。")
 
 status = get_provider_status()
